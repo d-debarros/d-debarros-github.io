@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- <link rel="icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | relative_url }}"> -->
+</head>
 <body>
   {% include header.html %}
   <main>
     <div class="content-with-profile">
-      <aside>
-        <img src="{{ '/assets/images/db.png' | relative_url }}" alt="Author Headshot" class="author-headshot">
+      <div class="author-column">
         {% include author_profile.html %}
-      </aside>
-      <section class="main-content">
+      </div>
+      <div class="text-column">
         {{ content }}
-      </section>
+      </div>
     </div>
   </main>
   {% include footer.html %}

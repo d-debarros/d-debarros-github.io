@@ -99,7 +99,7 @@ body {
   footer {
     position: fixed;
     bottom: 0;
-    width: auto;/* Span the entire device width */
+    width: 100%;/* Span the entire device width */
     background-color: #dad0d0; /* Light grey color */
     padding: 20px; /* Adjust padding as needed */
     text-align: center; /* Center align the content */
@@ -109,3 +109,27 @@ body {
     max-width: 1000px; /* Limit the width of the content */
     margin: 0 auto; /* Center the content */
   }
+
+  /* Update CSS to support two-column layout */
+.author-column {
+    width: 200px; /* Width of the author profile column */
+    margin-right: 20px; /* Spacing between columns */
+  }
+  
+  .text-column {
+    flex: 1; /* Take up remaining space */
+  }
+  
+  /* Ensure responsive layout on smaller screens */
+  @media (max-width: 800px) {
+    .content-with-profile {
+      flex-direction: column; /* Stack columns on smaller screens */
+    }
+    
+    .author-column,
+    .text-column {
+      width: 100%; /* Full width on smaller screens */
+      margin-right: 0; /* No spacing between columns */
+    }
+  }
+  
