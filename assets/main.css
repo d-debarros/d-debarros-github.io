@@ -28,7 +28,7 @@ body {
     height: 65px;
     background: white;
     border-bottom: 1px solid #ddd;
-    padding: 10px 20px 10px 20px;
+    padding: 20px 10px 40px 10px;
     z-index: 1000;
   }
   
@@ -108,14 +108,14 @@ body {
   }
   
   footer {
-    position: relative;
+    position: fixed;
+    left: 0;
     bottom: 0;
     width: 100vw;/* Span the entire device width */
-    height: 75px;
+    height: 50px;
     background-color: #dad0d0; /* Light grey color */
     padding: 20px; /* Adjust padding as needed */
     text-align: center; /* Center align the content */
-    left: 0;
   }
   
   .footer-content {
