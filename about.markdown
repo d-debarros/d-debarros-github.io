@@ -4,7 +4,8 @@ title: About
 ---
 
 This is the About page.
-![headshot](/assets/images/db.png)
+<img align="left" src="/assets/images/db.png" width="550" height="300">
+
 ### Howzit 👋
 ## Where I'm from
 
