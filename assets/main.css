@@ -1,7 +1,15 @@
+:root {
+    --gray: 96, 115, 159;
+    --gray-light: 229, 233, 240;
+    --gray-dark: 34, 41, 57;
+    --gray-gradient: rgba(var(--gray-light), 50%), #fff;
+}
+
 body {
     font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
     line-height: 1.6;
-    padding-top: 180px; /* Adjust based on header height */
+    background: linear-gradient(var(--gray-gradient)) no-repeat;
+    padding-top: 150px; /* Adjust based on header height */
     padding-left: 50px;
     max-width: 800px;
     margin: 0 auto;
