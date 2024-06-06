@@ -35,6 +35,30 @@ plugins:
   - jekyll-feed
 markdown: kramdown
 permalink: pretty
+
+
+author:
+  name   : "Daniel de Barros"
+  bio    : ""
+  links:
+    - label: "Rotterdam, the Netherlands"
+      icon: "fa-solid fa-location-dot"
+      url: " https://www.google.com/maps/place/Rotterdam/@51.9198834,4.4411107,12.5z/data=!4m6!3m5!1s0x47c5b7605f54c47d:0x5229bbac955e4b85!8m2!3d51.9244201!4d4.4777326!16zL20vMDZoZGs?entry=ttu"
+    - label: "Email"
+      icon: "fa-regular fa-envelope"
+      url: "mailto:danieldb12@gmail.com"
+    - label: "LinkedIn"
+      icon: "fa-brands fa-linkedin"
+      url: "https://www.linkedin.com/in/daniel-de-barros/"
+    - label: "Strava"
+      icon: "fab fa-strava"
+      url: "https://www.strava.com/athletes/50451023"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fa-brands fa-instagram"
+      url: "https://www.instagram.com/d_b.exe/"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

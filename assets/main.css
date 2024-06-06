@@ -1,31 +1,105 @@
 body {
     font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
     line-height: 1.6;
-    padding: 20px;
+    padding-top: 60px; /* Adjust based on header height */
     max-width: 800px;
     margin: 0 auto;
   }
-
+  
+  header.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+    z-index: 1000;
+  }
+  
+  .site-title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .site-logo {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
   nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
   }
-
+  
   nav ul li {
-    display: inline;
-    margin-right: 10px;
+    margin-left: 20px;
   }
-
+  
   nav ul li a {
     text-decoration: none;
     color: #007BFF;
   }
-
+  
   nav ul li a:hover {
     text-decoration: underline;
   }
-
+  
   h1 {
     border-bottom: 1px solid #ddd;
     padding-bottom: 10px;
   }
+  
+  .content-with-profile {
+    display: flex;
+  }
+  
+  .content-with-profile aside {
+    flex: 0 0 200px;
+    margin-right: 20px;
+  }
+  
+  .author-profile {
+    text-align: center;
+  }
+  
+  .author-headshot {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-links li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .social-links li a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  .social-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-links li a i {
+    margin-right: 5px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+  }
+  
