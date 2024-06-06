@@ -97,10 +97,15 @@ body {
   }
   
   footer {
-    text-align: center;
-    padding: 20px 0;
-    border-top: 1px solid #ddd;
-    margin-top: 20px;
     position: fixed;
+    bottom: 0;
+    width: auto;/* Span the entire device width */
+    background-color: #dad0d0; /* Light grey color */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center; /* Center align the content */
   }
   
+  .footer-content {
+    max-width: 1000px; /* Limit the width of the content */
+    margin: 0 auto; /* Center the content */
+  }
