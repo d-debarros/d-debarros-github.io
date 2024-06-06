@@ -1,12 +1,12 @@
 <div class="author-profile">
-    <img src="{{ '/assets/images/headshot.jpg' | relative_url }}" alt="Author Headshot" class="author-headshot">
+    <img src="{{ '/assets/images/db.png' | relative_url }}" alt="Author Headshot" class="author-headshot">
     <h2>{{ site.author.name }}</h2>
     <p>{{ site.author.bio }}</p>
     <ul class="social-links">
-      {% for social in site.author.social %}
+      {% for social in site.author.links %}
         <li>
           <a href="{{ social.url }}" target="_blank">
-            <i class="{{ social.icon }}"></i> {{ social.name }}
+            <i class="{{ social.icon }}"></i> {{ social.label }}
           </a>
         </li>
       {% endfor %}
