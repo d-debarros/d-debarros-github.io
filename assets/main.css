@@ -4,7 +4,7 @@ body {
     padding-top: 60px; /* Adjust based on header height */
     max-width: 800px;
     margin: 0 auto;
-    font-size: 10px; /* Adjust font size globally */
+    font-size: 14px; /* Adjust font size globally */
   }
   
   header.site-header {
@@ -14,6 +14,7 @@ body {
     position: fixed;
     top: 0;
     width: auto;
+    max-width: 800px;
     background: white;
     border-bottom: 1px solid #ddd;
     padding: 10px 20px;
