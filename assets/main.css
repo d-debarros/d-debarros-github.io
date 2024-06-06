@@ -2,7 +2,7 @@ body {
     font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
     line-height: 1.6;
     padding-top: 60px; /* Adjust based on header height */
-    max-width: 200px;
+    max-width: 800px;
     margin: 0 auto;
   }
   
@@ -12,6 +12,7 @@ body {
     align-items: center;
     position: fixed;
     top: 0;
+    width: auto;
     background: white;
     border-bottom: 1px solid #ddd;
     padding: 10px 20px;
@@ -63,7 +64,7 @@ body {
   }
   
   .author-profile {
-    text-align: center;
+    text-align: left;
   }
   
   .author-headshot {
