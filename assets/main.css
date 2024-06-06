@@ -70,7 +70,6 @@ body {
   }
   
   .author-headshot {
-    border-radius: 50%;
     max-width: 100%;
     height: auto;
   }
@@ -101,7 +100,7 @@ body {
     position: fixed;
     bottom: 0;
     width: 100vw;/* Span the entire device width */
-    height: 100px;
+    height: 75px;
     background-color: #dad0d0; /* Light grey color */
     padding: 20px; /* Adjust padding as needed */
     text-align: center; /* Center align the content */
