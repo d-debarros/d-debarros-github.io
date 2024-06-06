@@ -4,7 +4,7 @@ body {
     padding-top: 60px; /* Adjust based on header height */
     max-width: 800px;
     margin: 0 auto;
-    font-size: 14px; /* Adjust font size globally */
+    font-size: 10px; /* Adjust font size globally */
   }
   
   header.site-header {
@@ -100,10 +100,11 @@ body {
   footer {
     position: fixed;
     bottom: 0;
-    width: 100%;/* Span the entire device width */
+    width: 100vw;/* Span the entire device width */
     background-color: #dad0d0; /* Light grey color */
     padding: 20px; /* Adjust padding as needed */
     text-align: center; /* Center align the content */
+    left: 0;
   }
   
   .footer-content {
