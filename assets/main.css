@@ -12,7 +12,6 @@ body {
     align-items: center;
     position: fixed;
     top: 0;
-    width: auto;
     background: white;
     border-bottom: 1px solid #ddd;
     padding: 10px 20px;
