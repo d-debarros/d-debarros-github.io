@@ -13,7 +13,7 @@ body {
     align-items: center;
     position: fixed;
     top: 0;
-    width: auto;
+    width: 100vw;
     max-width: 800px;
     background: white;
     border-bottom: 1px solid #ddd;
