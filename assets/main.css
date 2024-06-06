@@ -114,7 +114,7 @@ body {
 
   /* Update CSS to support two-column layout */
 .author-column {
-    width: 250px; /* Width of the author profile column */
+    width: 350px; /* Width of the author profile column */
     margin-right: 20px; /* Spacing between columns */
   }
   
