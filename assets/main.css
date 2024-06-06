@@ -15,7 +15,6 @@ body {
     position: fixed;
     top: 0;
     width: 100vw;
-    max-width: 800px;
     background: white;
     border-bottom: 1px solid #ddd;
     padding: 10px 20px;
@@ -62,7 +61,7 @@ body {
   }
   
   .content-with-profile aside {
-    flex: 0 0 200px;
+    flex: 0 0 250px;
     margin-right: 20px;
   }
   
@@ -116,7 +115,7 @@ body {
 
   /* Update CSS to support two-column layout */
 .author-column {
-    width: 350px; /* Width of the author profile column */
+    width: 250px; /* Width of the author profile column */
     margin-right: 20px; /* Spacing between columns */
   }
   
@@ -125,7 +124,7 @@ body {
   }
   
   @media screen and (min-width: 390px) and (max-width: 767px) {
-    .header {
+    .site-header {
       height: 100%;
       flex-direction: column;
     }
@@ -135,7 +134,7 @@ body {
     .content-with-profile {
       flex-direction: column; /* Stack columns on smaller screens */
     }
-    
+
     .author-column,
     .text-column {
       width: 100%; /* Full width on smaller screens */

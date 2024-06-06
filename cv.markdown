@@ -1,4 +1,3 @@
-# CV
 06-06-2024
 ## Experience
 #### 07-2023 to present   Zimmer Biomet, Software Engineer
