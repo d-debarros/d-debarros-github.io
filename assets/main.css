@@ -12,7 +12,7 @@ body {
     align-items: center;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: auto;
     background: white;
     border-bottom: 1px solid #ddd;
     padding: 10px 20px;
@@ -21,7 +21,7 @@ body {
   
   .site-title {
     display: flex;
-    align-items: center;
+    align-items: left;
   }
   
   .site-logo {
