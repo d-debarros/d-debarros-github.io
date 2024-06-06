@@ -18,11 +18,14 @@ body {
   
   header.site-header {
     display: flex;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     top: 0;
+    left: 0;
     width: 100vw;
+    height: 65px;
     max-width: 900px;
     background: white;
     border-bottom: 1px solid #ddd;
