@@ -28,11 +28,12 @@ body {
     align-items: center;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: auto;
     height: 65px;
     background: white;
     border-bottom: 1px solid #ddd;
     padding: 20px 10px 40px 10px;
+    padding-right: 40px;
   }
   
   .site-title {
