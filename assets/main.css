@@ -46,7 +46,12 @@ body {
     height: 40px;
     margin-right: 10px;
   }
-  
+
+  .nav-links {
+    display: flex;
+    gap: 20px; /* Space between navigation links */
+  }
+
   nav ul {
     list-style: none;
     padding: 0;
@@ -60,7 +65,7 @@ body {
   
   nav ul li a {
     text-decoration: none;
-    color: #007BFF;
+    color: #333;
   }
   
   nav ul li a:hover {
