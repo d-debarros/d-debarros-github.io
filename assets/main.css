@@ -10,10 +10,10 @@ head {
 }
 
 body {
+    display: flex;
     font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
     line-height: 1.6;
     background: linear-gradient(var(--gray-gradient)) no-repeat;
-    display: block;
     padding-top: 150px; /* Adjust based on header height */
     padding-left: 50px;
     max-width: 100vw;
