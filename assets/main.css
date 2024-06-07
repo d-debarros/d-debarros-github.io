@@ -22,17 +22,18 @@ body {
   }
   
   header.site-header {
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     top: 0;
-    /* left: 0; */
+    left: 0;
     height: 45px;
     background: white;
     border-bottom: 1px solid #ddd;
-    padding: 20px 10px 40px 10px;
+    padding: 15px 20px 15px;
     padding-right: 50px;
-    width: 100vw;
+    width: 98vw;
     z-index: 1000;
   }
   
@@ -138,10 +139,13 @@ body {
 .author-column {
     width: 250px; /* Width of the author profile column */
     margin-right: 20px; /* Spacing between columns */
+    padding-right: 10px;
+
   }
   
   .text-column {
     flex: 1; /* Take up remaining space */
+    padding-left: 10px;
   }
   
   @media screen and (min-width: 390px) and (max-width: 767px) {
