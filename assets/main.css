@@ -124,7 +124,7 @@ body {
     bottom: 0;
     width: 100vw;/* Span the entire device width */
     height: 50px;
-    background-color: #dad0d0; /* Light grey color */
+    background-color: #e2dcdc83; /* Light grey color */
     padding: 20px; /* Adjust padding as needed */
     text-align: center; /* Center align the content */
   }
