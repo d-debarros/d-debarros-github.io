@@ -25,11 +25,11 @@ Johannesburg, South Africa
 - 
 
 ## Education
-#### BSc. Engineering - Electrical Engineering
+#### 2018 - 2019 *Bachelor of Science Electrical Engineering*, **BSc. Eng (Electrical) Hons** 
 Specializations: Control Systems, Artificial Intelligence, High Frequency/RF systems
 University of the Witwatersrand, Johannesburg
-#### BEngSc. - Biomedical Engineering
-Specializations: Electronics, Microprocessors, Anatomy, Physiology
+#### 2015 - 2017 *Bachelor of Engineering Science in Biomedical Engineering*, **BEngSc (BME)** 
+Specializations: Electronics, Microprocessors, Medical Imaging, Human Anatomy and Physiology
 University of the Witwatersrand, Johannesburg
 
 #### National Senior Certificate
