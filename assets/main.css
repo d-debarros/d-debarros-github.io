@@ -11,7 +11,7 @@ head {
 
 body {
     display: flex;
-    font-family: 'VCR OSD Mono','Atkinson Hyperlegible', Arial, sans-serif;
+    font-family: 'Space Mono','Atkinson Hyperlegible', Arial, sans-serif;
     line-height: 1.6;
     background: linear-gradient(var(--gray-gradient)) no-repeat;
     padding-top: 150px; /* Adjust based on header height */
