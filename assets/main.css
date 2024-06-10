@@ -166,35 +166,55 @@ body {
     }
   }
   
-  .breadcrumb-navigation > li {
-    display: inline;
-}
-
-.breadcrumb-navigation li + li:before {
-  padding: 4px;
-  content: ">";
-}
-
-.breadcrumb-navigation::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  display: inline-block;
-  background-color: #606060;
-  vertical-align: top;
-  width: 6px;
-  /* Set height to the line height of .text */
-  height: 24px;
-  /* 
-  Animation paramaters:
-  blink = animation-name, 
-  1s = animation-duration, 
-  step-end = animation-timing-function,
-  infinite = animation-iteration-count
-  */
-  -webkit-animation: blink 1s step-end infinite;
-  animation: blink 1s step-end infinite;
-}
+  .breadcrumb-navigation {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .breadcrumb-navigation ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .breadcrumb-navigation li {
+    margin-right: 10px;
+  }
+  
+  .breadcrumb-navigation li::after {
+    content: ">";
+    margin-left: 10px;
+  }
+  
+  .breadcrumb-navigation li:last-child::after {
+    content: "";
+    top: 0;
+    display: inline-block;
+    background-color: #aaa8a8;
+    vertical-align: top;
+    width: 5px;
+    /* Set height to the line height of .text */
+    height: 17px;
+    /* 
+    Animation paramaters:
+    blink = animation-name, 
+    1s = animation-duration, 
+    step-end = animation-timing-function,
+    infinite = animation-iteration-count
+    */
+    -webkit-animation: blink 1s step-end infinite;
+    animation: blink 1s step-end infinite;
+  }
+  
+  .breadcrumb-navigation a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .breadcrumb-navigation a:hover {
+    text-decoration: underline;
+  }
 
 @-webkit-keyframes blink {
   0% { opacity: 1.0; }
