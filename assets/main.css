@@ -39,12 +39,19 @@ body {
   
   .site-title {
     display: flex;
-    align-items: left;
+    align-items: normal;
+    padding: 40px;
+
   }
   
   .site-logo {
-    height: 40px;
-    margin-right: 10px;
+    height: 45px;
+    margin-right: 5px;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    display: flex;
+    position: fixed;
   }
 
   .nav-links {
@@ -177,6 +184,10 @@ body {
     display: flex;
     flex-wrap: wrap;
   }
+
+  .breadcrumb-navigation ul li{
+    margin-right: 10px;
+  }
   
   .breadcrumb-navigation li {
     display: inline;
@@ -192,10 +203,10 @@ body {
     top: 0;
     display: inline-block;
     background-color: #aaa8a8;
-    vertical-align: center;
+    vertical-align: top;
     width: 5px;
     /* Set height to the line height of .text */
-    height: 17px;
+    height: 19px;
     /* 
     Animation paramaters:
     blink = animation-name, 
@@ -209,7 +220,7 @@ body {
   
   .breadcrumb-navigation a {
     text-decoration: none;
-    color: #333;
+    color: #aaa8a8;
   }
   
   .breadcrumb-navigation a:hover {
