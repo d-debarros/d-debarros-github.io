@@ -179,12 +179,12 @@ body {
   }
   
   .breadcrumb-navigation li {
-    margin-right: 10px;
+    display: inline;
   }
   
   .breadcrumb-navigation li::after {
     content: ">";
-    margin-left: 10px;
+    margin-left: 4px;
   }
   
   .breadcrumb-navigation li:last-child::after {
@@ -192,7 +192,7 @@ body {
     top: 0;
     display: inline-block;
     background-color: #aaa8a8;
-    vertical-align: top;
+    vertical-align: center;
     width: 5px;
     /* Set height to the line height of .text */
     height: 17px;
@@ -209,7 +209,7 @@ body {
   
   .breadcrumb-navigation a {
     text-decoration: none;
-    color: #007bff;
+    color: #333;
   }
   
   .breadcrumb-navigation a:hover {

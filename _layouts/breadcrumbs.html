@@ -1,0 +1,12 @@
+{% if page.breadcrumbs %}
+  <nav class="breadcrumbs">
+    <ul>
+      {% for breadcrumb in page.breadcrumbs %}
+        <li>
+          <a href="{{ breadcrumb.url }}">{{ breadcrumb.title }}</a>
+        </li>
+      {% endfor %}
+      <li>{{ page.title }}</li>
+    </ul>
+  </nav>
+{% endif %}

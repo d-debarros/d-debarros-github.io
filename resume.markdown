@@ -1,6 +1,12 @@
 ---
 layout: resume
 title: Daniel Luis Silva de Barros
+breadcrumbs:
+  - title: DB
+    url: "/"
+  - title: Resume
+    url: "/resume/"
+
 ---
 
 Last updated: 06-06-2024
