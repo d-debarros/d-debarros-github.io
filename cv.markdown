@@ -1,5 +1,16 @@
+---
+layout: Resume
+title: Daniel Luis Silva de Barros
+---
+
 06-06-2024
+
 ## Experience
+|   	|   	|   	|
+|---	|---	|---	|
+| 07-2023 to present  	| Zimmer Biomet, Software Engineer	| Delft, the Netherlands  	|
+|   	|   	|   	|
+|   	|   	|   	|
 #### 07-2023 to present   Zimmer Biomet, Software Engineer
 Delft, South Holland, the Netherlands
 #### 03-2022 to 06-2023 KH Engineering, Instrumentation and Process Control Engineer
@@ -11,8 +22,8 @@ Johannesburg, South Africa
 Specializations: Control Systems, Artificial Intelligence, High Frequency/RF systems
 University of the Witwatersrand, Johannesburg
 #### BEngSc - Biomedical Engineering
-Specializations
-University of the Witwatersrand
+Specializations: Electronics, Microprocessors, Anatomy, Physiology
+University of the Witwatersrand, Johannesburg
 
 #### National Senior Certificate
 St Benedicts College, Bedfordview, Ekhurleni
