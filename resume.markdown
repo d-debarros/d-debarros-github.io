@@ -2,7 +2,7 @@
 layout: resume
 title: Daniel Luis Silva de Barros
 breadcrumbs:
-  - title: 'DB::'
+  - title: 'DB:'
     url: "/"
   - title: Resume >
     url: "/resume/"
