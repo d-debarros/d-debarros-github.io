@@ -1,8 +1,9 @@
 ---
 layout: resume
 title: Daniel Luis Silva de Barros
-"Last updated: 06-06-2024"
 ---
+
+Last updated: 06-06-2024
 
 ---
 
