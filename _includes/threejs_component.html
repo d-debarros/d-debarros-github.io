@@ -43,8 +43,8 @@
 
         for (let i = 0; i < width; i++) {
             for (let j = 0; j < length; j++) {
-                const u = i;
-                const v = j;
+                const u = i / width;
+                const v = j / length;
                 const x = u - 0.5;
                 const y = (Math.cos(u * Math.PI * 4) + Math.sin(v * Math.PI * 8)) / 20;
                 const z = v - 0.5;
@@ -121,6 +121,7 @@
         camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 10000);
         camera.position.set(1, 5, 10);
         camera.lookAt(scene.position);
+        camera.zoom(2);
         camera.updateMatrix();
 
         const pcBuffer = generatePointcloud(new THREE.Color(1, 1, 1), width, length);
