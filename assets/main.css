@@ -39,12 +39,12 @@ body {
 
   .animation {
     margin-top: 60px; /* Adjust this value based on the header height */
-    height: 600px;
+    height: 800px;
     width: 100vw;
     position: fixed;
     left: 0;
   }
-  
+
   .site-title {
     display: flex;
     align-items: normal;
