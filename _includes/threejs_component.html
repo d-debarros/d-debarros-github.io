@@ -1,5 +1,5 @@
 <!-- _includes/threejs_component.html -->
-<div id="container" style="height: 600px; width: 100%;"></div>
+<div id="animation" style="height: 600px; width: 100vw;"></div>
 
 <script type="importmap">
     {
@@ -113,7 +113,7 @@
     }
 
     function init() {
-        const container = document.getElementById('container');
+        const container = document.getElementById('animation');
 
         scene = new THREE.Scene();
         clock = new THREE.Clock();
