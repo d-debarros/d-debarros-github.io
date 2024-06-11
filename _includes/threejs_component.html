@@ -45,9 +45,9 @@
             for (let j = 0; j < length; j++) {
                 const u = i / width;
                 const v = j / length;
-                const x = u;
-                const y = (Math.cos(u * Math.PI * 4) + Math.sin(v * Math.PI * 6)) / 25;
-                const z = v - 0.5;
+                const x = u + 1;
+                const y = (Math.cos(u * Math.PI * 4) + Math.sin(v * Math.PI * 8)) / 25;
+                const z = v + 1;
 
                 positions[3 * k] = x;
                 positions[3 * k + 1] = y;
