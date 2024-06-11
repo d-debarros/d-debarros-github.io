@@ -46,7 +46,7 @@
                 const u = i / width;
                 const v = j / length;
                 const x = u - 0.5;
-                const y = (Math.cos(u * Math.PI * 4) + Math.sin(v * Math.PI * 8)) / 20;
+                const y = (Math.cos(u * Math.PI * 4) + Math.sin(v * Math.PI * 8)/(v * Math.PI * 8)) / 22;
                 const z = v - 0.5;
 
                 positions[3 * k] = x;
@@ -118,7 +118,7 @@
         scene = new THREE.Scene();
         clock = new THREE.Clock();
 
-        camera = new THREE.PerspectiveCamera(20, window.innerWidth / window.innerHeight, 1, 10000);
+        camera = new THREE.PerspectiveCamera(18, window.innerWidth / window.innerHeight, 1, 10000);
         camera.position.set(1, 5, 10);
         camera.lookAt(scene.position);
         camera.updateMatrix();
