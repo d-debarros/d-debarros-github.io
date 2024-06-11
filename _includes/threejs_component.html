@@ -12,9 +12,8 @@
 
 <script type="module">
     import * as THREE from 'three';
-    import Stats from 'three/addons/libs/stats.module.js';
 
-    let renderer, scene, camera, stats;
+    let renderer, scene, camera;
     let pointclouds;
     let raycaster;
     let intersection = null;
@@ -27,7 +26,7 @@
 
     const threshold = 0.1;
     const pointSize = 0.05;
-    const width = 180;
+    const width = 30;
     const length = 260;
     const rotateY = new THREE.Matrix4().makeRotationY( 0.005 );
 
@@ -124,7 +123,7 @@
         camera.lookAt(scene.position);
         camera.updateMatrix();
 
-        const pcBuffer = generatePointcloud(new THREE.Color(1, 0, 0), width, length);
+        const pcBuffer = generatePointcloud(new THREE.Color(1, 1, 1), width, length);
         pcBuffer.scale.set(5, 10, 10);
         pcBuffer.position.set(-5, 0, 0);
         scene.add(pcBuffer);
@@ -159,8 +158,6 @@
         raycaster = new THREE.Raycaster();
         raycaster.params.Points.threshold = threshold;
 
-        stats = new Stats();
-        container.appendChild(stats.dom);
 
         window.addEventListener('resize', onWindowResize);
         document.addEventListener('pointermove', onPointerMove);
@@ -179,7 +176,6 @@
 
     function animate() {
         render();
-        stats.update();
     }
 
     function render() {
