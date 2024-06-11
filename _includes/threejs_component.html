@@ -118,7 +118,7 @@
         scene = new THREE.Scene();
         clock = new THREE.Clock();
 
-        camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 1, 10000);
+        camera = new THREE.PerspectiveCamera(10, window.innerWidth / window.innerHeight, 1, 10000);
         camera.position.set(1, 5, 10);
         camera.lookAt(scene.position);
         camera.updateMatrix();
