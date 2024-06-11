@@ -20,12 +20,11 @@
         <li><a href="{{ '/resume' | relative_url }}">Resume</a></li>
       </ul>
     </nav>
-    <div class="animation">
-        {% include threejs_component.html %}
-    </div>
 </header>
 <body>
-
+  <div class="animation">
+    {% include threejs_component.html %}
+  </div>
   <main>
         {{ content }}
   </main>
