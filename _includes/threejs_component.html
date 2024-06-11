@@ -26,8 +26,8 @@
 
     const threshold = 0.1;
     const pointSize = 0.05;
-    const width = 100;
-    const length = 180;
+    const width = 120;
+    const length = 200;
     const rotateY = new THREE.Matrix4().makeRotationY( 0.005 );
 
     init();
@@ -118,7 +118,7 @@
         scene = new THREE.Scene();
         clock = new THREE.Clock();
 
-        camera = new THREE.PerspectiveCamera(10, window.innerWidth / window.innerHeight, 1, 10000);
+        camera = new THREE.PerspectiveCamera(20, window.innerWidth / window.innerHeight, 1, 10000);
         camera.position.set(1, 5, 10);
         camera.lookAt(scene.position);
         camera.updateMatrix();
