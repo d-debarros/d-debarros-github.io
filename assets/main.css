@@ -36,6 +36,14 @@ body {
     width: 98vw;
     z-index: 1000;
   }
+
+  .animation {
+    margin-top: 60px; /* Adjust this value based on the header height */
+    height: 600px;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+  }
   
   .site-title {
     display: flex;
@@ -85,12 +93,6 @@ body {
     padding-bottom: 10px;
   }
   
-  .animation {
-    margin-top: 60px; /* Adjust this value based on the header height */
-    height: 600px;
-    width: 100vw;
-    /* position: relative; */
-  }
   .content-with-profile {
     display: flex;
   }
