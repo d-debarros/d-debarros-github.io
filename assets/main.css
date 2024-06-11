@@ -38,12 +38,13 @@ body {
   }
 
   .animation {
-    margin-top: 60px; /* Adjust this value based on the header height */
+    margin-top: -75px; /* Adjust this value based on the header height */
     height: 800px;
     max-height: 950px;
     width: 100vw;
     position: fixed;
     left: 0;
+    z-index: 1;
   }
 
   .site-title {
