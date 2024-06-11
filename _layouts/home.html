@@ -10,10 +10,13 @@
   <link rel="icon" type="image/x-icon" href="{{ '/assets/images/lightningbolt.ico' | relative_url }}">
 </head>
 <body>
-  {% include header.html %}
+
+    {% include header.html %}
+    
   <div id="threejs-animation">
     {% include threejs_component.html %}
   </div>
+
   <main>
     {{ content }}
   </main>
