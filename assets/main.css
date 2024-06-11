@@ -85,6 +85,12 @@ body {
     padding-bottom: 10px;
   }
   
+  .animation {
+    margin-top: 60px; /* Adjust this value based on the header height */
+    height: 600px;
+    width: 100vw;
+    /* position: relative; */
+  }
   .content-with-profile {
     display: flex;
   }
