@@ -46,6 +46,16 @@ Specializations: Electronics, Microprocessors, Medical Imaging, Human Anatomy an
 #### National Senior Certificate
 St Benedicts College, Bedfordview, Ekhurleni
 
+## Skills
+- Progamming Languages ::
+- Developer Tools/Platforms ::
+- Engineering Tools ::
+
+## Languages
+- English
+- Portuguese
+- Dutch
+  
 ## Awards
 
 ## Certifications
