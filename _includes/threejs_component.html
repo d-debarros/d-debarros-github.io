@@ -44,7 +44,7 @@
                 const u = i / width;
                 const v = j / length;
                 const x = u - 0.5;
-                const y = (Math.cos(u * Math.PI * 6) + Math.sin(v * Math.PI * 8)) / 22;
+                const y = (Math.cos(u * Math.PI * 6) + Math.sin(v * Math.PI * 12)) / 32;
                 const z = v - 0.5;
 
                 positions[3 * k] = x;
@@ -138,8 +138,8 @@
 
         pointclouds = [pcBuffer, pcIndexed, pcIndexedOffset];
 
-        const sphereGeometry = new THREE.SphereGeometry(0.1, 32, 32);
-        const sphereMaterial = new THREE.MeshBasicMaterial({ color: 0xff0000 });
+        const sphereGeometry = new THREE.SphereGeometry(0.02, 32, 32);
+        const sphereMaterial = new THREE.MeshBasicMaterial({ color: 0xe4e009 });
 
         for (let i = 0; i < 40; i++) {
             const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
