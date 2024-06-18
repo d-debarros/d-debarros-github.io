@@ -14,7 +14,7 @@
   <div class="content">
     <div class="home-header">{{ site.title }}</div>
     <div class="home-navigation">
-      <a href="#about">About</a> | 
+      <a href="{{ '/about' | relative_url }}">About</a> | 
       <a href="{{ '/resume' | relative_url }}">Résumé</a>
     </div>
     {{ content }}
