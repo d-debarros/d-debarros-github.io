@@ -3,7 +3,7 @@ body {
     font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
     line-height: 1.6;
     color: white;
-    font-size: 36px; /* Adjust font size globally */
+    font-size: 16px; /* Adjust font size globally */
     justify-content: center;
     background: black;
     /* cursor: wait; */
@@ -19,6 +19,15 @@ body {
     z-index: 1;
     text-align: center;
     width: 55vw;
+}
+
+a {
+    color: #e4e009; /* Change color on hover */
+}
+
+.home-header {
+    font-size: 64px; /* Adjust font size globally */
+
 }
 
 .animation {
