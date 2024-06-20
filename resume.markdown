@@ -4,6 +4,8 @@ title: Daniel Luis Silva de Barros
 breadcrumbs:
   - title: 'DB:'
     url: "/"
+  - title: About
+    url: "/about/"
   - title: Resume >
     url: "/resume/"
 
