@@ -14,8 +14,9 @@
   <div class="content">
     <div class="home-header">{{ site.title }}</div>
     <div class="home-navigation">
-      <a href="{{ '/about' | relative_url }}">About</a> | 
-      <a href="{{ '/resume' | relative_url }}">Résumé</a>
+      <!-- <a href="{{ '/about' | relative_url }}">About</a> | 
+      <a href="{{ '/resume' | relative_url }}">CV</a> -->
+      {% include breadcrumbs.html %}
     </div>
     {{ content }}
     <!-- <div id = about>
@@ -40,6 +41,7 @@
     <div class="right"></div>
     
   </div>
-
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="/assets/js/infinite-jekyll.js"></script>
 </body>
 </html>

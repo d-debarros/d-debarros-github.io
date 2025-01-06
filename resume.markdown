@@ -1,17 +1,18 @@
 ---
-layout: resume
+layout: pdf
 title: Daniel Luis Silva de Barros
-breadcrumbs:
-  - title: 'DB:'
-    url: "/"
-  - title: About
-    url: "/about/"
-  - title: Resume >
-    url: "/resume/"
+permalink: /resume/
+# breadcrumbs:
+#   - title: 'DB:'
+#     url: "/"
+#   - title: About
+#     url: "/about/"
+#   - title: Resume >
+#     url: "/resume/"
 
 ---
 
-<style>
+<!-- <style>
 td, th {
    padding: 5px;
    border: none!important;
@@ -99,4 +100,4 @@ St Benedicts College, Bedfordview, Ekhurleni
 
 ## Volunteering
 - Charlotte Maxeke Hospital
-- Three2Six, education for refugee children
+- Three2Six, education for refugee children -->

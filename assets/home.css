@@ -18,7 +18,7 @@ body {
 .content {
     z-index: 1;
     text-align: center;
-    width: 55vw;
+    width: 85vw;
 }
 
 a {
@@ -26,7 +26,7 @@ a {
 }
 
 .home-header {
-    font-size: 64px; /* Adjust font size globally */
+    font-size: 42px; /* Adjust font size globally */
 
 }
 
@@ -44,7 +44,7 @@ a {
     font-size: 20px; /* Adjust font size globally */
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 2px;
 }
 .home-navigation a:hover {
     text-decoration: underline;
@@ -120,4 +120,79 @@ a {
     -webkit-transform:rotate(-45deg);
     }
 }
+  
+.breadcrumb-navigation {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
 
+.breadcrumb-navigation ul {
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.breadcrumb-navigation li {
+  display: inline;
+}
+
+.breadcrumb-navigation li::after {
+  content: "/";
+  margin-left: 0px;
+}
+
+.breadcrumb-navigation li:last-child {
+  content: ">";
+}
+
+.breadcrumb-navigation li:last-child::after {
+  content: "";
+  display: inline-block;
+  background-color: #f9f9f8;
+  vertical-align: top;
+  width: 1px;
+  /* Set height to the line height of .text */
+  height: 30px;
+  /* 
+  Animation paramaters:
+  blink = animation-name, 
+  1s = animation-duration, 
+  step-end = animation-timing-function,
+  infinite = animation-iteration-count
+  */
+  -webkit-animation: blink 1.5s step-end infinite;
+  animation: blink 1.5s step-end infinite;
+}
+
+.breadcrumb-navigation a {
+  text-decoration: none;
+}
+
+.breadcrumb-navigation a:hover {
+  text-decoration: underline;
+}
+
+@-webkit-keyframes blink {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blink {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+
+.animation {
+    margin-top: -7px;
+    /* height: 120vh; */
+    /* max-height: 140vh; */
+    width: 100vw;
+    position: fixed;
+    /* left: 0; */
+    z-index: -1;
+}
