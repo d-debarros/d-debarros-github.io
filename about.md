@@ -7,7 +7,7 @@ breadcrumbs:
   - title: About
     url: "/about/"
   - title: Resume >
-    url: "/resume/"
+    url: "/assets/pdf/resume.pdf"
 ---
 ## Howzit 👋 I'm Daniel de Barros.
 ####  (But everyone calls me DB)
