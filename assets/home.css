@@ -27,6 +27,12 @@ body {
     flex-direction: column;
 }
 
+.sticky-header-wrapper {
+    position: sticky;
+    top: 0px;
+    z-index: 800;
+}
+
 .content-wrapper{
    flex-direction: row;
 }

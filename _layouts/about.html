@@ -14,11 +14,13 @@
     {% include threejs_component.html %}
   </div>
   <div class="content">
+    <div class="sticky-header-wrapper">
     <div class="home-header">{{ site.title }}</div>
     <div class="home-navigation">
       <!-- <a href="{{ '/about' | relative_url }}">About</a> | 
       <a href="{{ '/resume' | relative_url }}">CV</a> -->
       {% include breadcrumbs.html %}
+    </div>
     </div>
     <div class="content-wrapper">
     <div class = "content-with-profile">
@@ -42,5 +44,6 @@
     
   <!-- </div> -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="/assets/js/changeStyleOnScroll.js"></script>
 </body>
 </html>
