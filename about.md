@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: about
 title: About
 breadcrumbs:
   - title: 'DB:'
@@ -8,8 +8,6 @@ breadcrumbs:
     url: "/about/"
   - title: Resume >
     url: "/resume/"
-
----
 ---
 ## Howzit 👋 I'm Daniel de Barros.
 ####  (But everyone calls me DB)
@@ -24,4 +22,6 @@ I worked for a period of 4 years in the Mining, Oil and Gas and Chemical/Process
 
 #### Here are some songs I have on repeat:
 
- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1EpmVLg60ReTIs?utm_source=generator&theme=0" width="100%" height="400" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+ <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1EpmVLg60ReTIs?utm_source=generator&theme=0" width="90%" height="400" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe height='100%' width='90%' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/50451023/latest-rides/8bc00ab66515a602ddfa16d82929e2443d41faf6'></iframe>
